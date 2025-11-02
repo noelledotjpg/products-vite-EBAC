@@ -1,0 +1,36 @@
+@import url('https://api.fontshare.com/css?f[]=general-sans@700,400&display=swap');
+
+:root {
+  --bg-dark: #10100f;
+  --bg-card: #1c1d1b;
+  --bg-hover: #232422;
+  --text-primary: #e4e4e7;
+  --text-secondary: #a1a1aa;
+  --border: #2d302d;
+
+  --accent-regular: #b6a93f;
+  --accent-light: #cabc54;
+  --accent-dark: #958c35;
+  --accent-bg: rgba(182, 169, 63, 0.15);
+
+  --danger: #c75a4a;
+  --danger-light: #da6b5a;
+  --danger-dark: #9e463b;
+
+  --radius: 6px;
+  --transition: 0.25s ease;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'General Sans', sans-serif;
+  transition: var(--transition);
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+}
